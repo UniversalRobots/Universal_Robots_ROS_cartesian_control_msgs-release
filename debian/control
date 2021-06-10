@@ -1,0 +1,12 @@
+Source: ros-melodic-cartesian-control-msgs
+Section: misc
+Priority: optional
+Maintainer: Felix Exner <exner@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cartesian-control-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib-msgs, ros-melodic-geometry-msgs, ros-melodic-message-runtime
+Description: Cartesian trajectory execution interface.
